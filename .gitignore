@@ -1,0 +1,42 @@
+# ============================================================================
+# Git Ignore Rules for MalVision
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and runtime
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets (Malimg raw 9,339 images is ~2.4 GB - download via download_malimg.py)
+data/
+data/dataset/
+data/raw_binaries/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch scripts
+patch_intel.py
+upgrade_icons.py
