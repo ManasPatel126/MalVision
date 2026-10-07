@@ -47,8 +47,12 @@ The system operates across six integrated stages:
 ## 🚀 Quick Start Guide
 
 ### Option 1: One-Click Startup (Windows)
-Simply double-click the included batch launcher:
-```cmd
+Double-click `start.bat` in File Explorer, or run in terminal:
+```powershell
+# In Windows PowerShell:
+.\start.bat
+
+# Or in Command Prompt (cmd):
 start.bat
 ```
 This automatically starts the Streamlit threat hunter server and opens your browser at `http://localhost:8501`.
