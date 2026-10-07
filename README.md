@@ -175,19 +175,7 @@ MalVision/
 
 ---
 
-## 📚 Publications & Citations
 
-If you use MalVision in your research, thesis, or security projects, please cite:
-
-```bibtex
-@article{kumar2026malvision,
-  title={MalVision: Deep Learning-Based Malware Classification via Spatial Binary Textures and Grad-CAM Explainability},
-  author={Kumar, Manas},
-  journal={IEEE Transactions on Information Forensics and Security},
-  volume={19},
-  pages={1--11},
-  year={2026}
-}
 ```
 
 ---
